@@ -1,0 +1,26 @@
+.game-board {
+    width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.player1-pits, .player2-pits {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.pit {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.score {
+    margin-top: 20px;
+}
